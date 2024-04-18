@@ -25,6 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
         console.error(error);
         loadingText.classList.add("hidden");
         errorText.classList.remove("hidden");
+        console.log("Somthing went wrong")
       }
     });
   });
